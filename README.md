@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+12/10/2019
 
 ### Project Title
-Replace the Project Title
+Bike share Analytics
 
 ### Description
-Describe what your project is about and what it does
+This program is set to give analytical data about bike sharing in 3 cities within a time frame asked to the customer to choose it through prompet screen 
 
 ### Files used
-Include the files used
+Includes a python file and 3 csv files each for 1 city 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+the technical part of the program is based on the essentials of python course delivered by udacity.
 
