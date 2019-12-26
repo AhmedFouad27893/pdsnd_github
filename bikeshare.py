@@ -91,7 +91,7 @@ def get_filters():
     while True:
 
 
-      month = input("\nWhich month would you like to filter by? January, February, March, April, May, June or type 'all' if you do not have any preference?\n")
+      month = input("\nWhich month would you like to filter by? or type 'all' if you do not have any preference?\n")
 
 
       if month.lower() not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
@@ -121,7 +121,7 @@ def get_filters():
     while True:
 
 
-      day = input("\nAre you looking for a particular day? If so, kindly enter the day as follows: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all' if you do not have any preference.\n")
+      day = input("\nSelect the day of week you want to look at or type 'all' if you do not have any preference.\n")
 
 
       if day.lower() not in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):
@@ -340,20 +340,7 @@ def time_stats(df):
 
 
 
-    # display the most common start hour
-
-
-
-
-
-    df['hour'] = df['Start Time'].dt.hour
-
-
-    popular_hour = df['hour'].mode()[0]
-
-
-    print('Most Common Hour:', popular_hour)
-
+   
 
 
 
