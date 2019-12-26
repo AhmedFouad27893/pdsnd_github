@@ -12,4 +12,4 @@ Includes a python file and 3 csv files each for 1 city
 
 ### Credits
 the technical part of the program is based on the essentials of python course delivered by udacity.
-
+www.udacity.com
